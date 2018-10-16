@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="homeLink" datatype="html">
+        <source>Home</source>
+        <target>FR-Home</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">Go to homepage</note>
+        <note priority="1" from="meaning">Navigation</note>
+      </trans-unit>
+      <trans-unit id="aboutLink" datatype="html">
+        <source>About</source>
+        <target>FR-About</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="settingsLink" datatype="html">
+        <source>Settings</source>
+        <target>FR-Settings</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homeTitle" datatype="html">
+        <source>
+          home works!
+        </source>
+        <target>FR-home works!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sampleDate" datatype="html">
+        <source>Sample Date: <x id="INTERPOLATION" equiv-text="{{date | date}}"/></source>
+        <target>FR-Sample Date: <x id="INTERPOLATION" equiv-text="{{date | date}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sampleNumber" datatype="html">
+        <source>Sample Number: <x id="INTERPOLATION" equiv-text="{{number | number}}"/></source>
+        <target>FR-Sample Number: <x id="INTERPOLATION" equiv-text="{{number | number}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="sampleCurrency" datatype="html">
+        <source>Sample Currency: <x id="INTERPOLATION" equiv-text="{{currency | currency}}"/></source>
+        <target>FR-Sample Currency: <x id="INTERPOLATION" equiv-text="{{currency | currency}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/home/home.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutTitle" datatype="html">
+        <source>
+          about works!
+        </source>
+        <target>
+          FR-about works!
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/about/about.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="settingsTitle" datatype="html">
+        <source>
+          settings works!
+        </source>
+        <target>
+          FR-settings works!
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/settings/settings.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
